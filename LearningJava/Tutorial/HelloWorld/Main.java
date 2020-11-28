@@ -1,4 +1,4 @@
-package LearningJava.MoshTutorial.HelloWorld;
+package LearningJava.Tutorial.HelloWorld;
 
 public class Main {
     public static void main(String[] args){
