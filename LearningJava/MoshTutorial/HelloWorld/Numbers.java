@@ -1,5 +1,7 @@
 package LearningJava.MoshTutorial.HelloWorld;
 
+import java.text.NumberFormat;
+
 public class Numbers {
     public static void main(String[] args){
         // double result = (double)10 / (double)3;
@@ -67,8 +69,35 @@ public class Numbers {
         // int result = (int)Math.max(1, 2); // This will return the greater number which is 2. there is also Math.min(1, 2)
         // System.out.println(result);
 
-        int result = (int) (Math.random()*100); // the parentheses are important here before the Math.random and after the 100 or the numbers will always be equal to 0.randomNo which will show 0 because I specified to be an integer.
-        System.out.println(result);
+
+
+        // int result = (int) (Math.random()*100); // the parentheses are important here before the Math.random and after the 100 or the numbers will always be equal to 0.randomNo which will show 0 because I specified to be an integer.
+        // System.out.println(result);
+
+
+
+        // NumberFormat currency = NumberFormat.getCurrencyInstance();//creates new objects
+        // String result = currency.format(1234567.891);
+        // System.out.println(result);
+        /* Prints: */
+        /* £1,234,567.89 */
+
+
+
+        // NumberFormat percent = NumberFormat.getPercentInstance();//formats a number as a percent
+        // String result = percent.format(0.1); //this will be formated to a percentage: 10%
+        // System.out.println(result);
+
+
+
+        // String result = NumberFormat.getPercentInstance().format(0.1); //A shorter way to write the one above. Method Chaining.
+        // System.out.println(result);
+
+
+
+        // Reading input from an user //
+
+
     }
     
 }
