@@ -109,7 +109,7 @@ public class Numbers {
         System.out.print("Name: "); // You only get out the first name/token that you include here.
         String name = scanner.nextLine().trim(); //having .nextLine the program will store the entire line that the user enters.| Also added .trim() at the end to get rid of the white before and after the line. It won't do it for in between the line.
         System.out.println("You are " + name);
-
+        scanner.close();
 
     }
     
