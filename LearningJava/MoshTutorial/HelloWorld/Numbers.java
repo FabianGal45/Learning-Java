@@ -1,6 +1,7 @@
 package LearningJava.MoshTutorial.HelloWorld;
 
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class Numbers {
     public static void main(String[] args){
@@ -96,6 +97,18 @@ public class Numbers {
 
 
         // Reading input from an user //
+
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Age: ");
+        // byte age = scanner.nextByte(); //use next.Double OR next.Float for an float 2.1 | For a string, things get different.
+        // System.out.println("You are " + age);
+
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: "); // You only get out the first name/token that you include here.
+        String name = scanner.nextLine().trim(); //having .nextLine the program will store the entire line that the user enters.| Also added .trim() at the end to get rid of the white before and after the line. It won't do it for in between the line.
+        System.out.println("You are " + name);
 
 
     }
