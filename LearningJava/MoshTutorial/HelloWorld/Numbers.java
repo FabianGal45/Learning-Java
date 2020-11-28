@@ -67,7 +67,7 @@ public class Numbers {
         // int result = (int)Math.max(1, 2); // This will return the greater number which is 2. there is also Math.min(1, 2)
         // System.out.println(result);
 
-        int result = (int) (Math.random()*100);
+        int result = (int) (Math.random()*100); // the parentheses are important here before the Math.random and after the 100 or the numbers will always be equal to 0.randomNo which will show 0 because I specified to be an integer.
         System.out.println(result);
     }
     
