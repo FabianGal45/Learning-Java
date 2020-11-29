@@ -35,6 +35,10 @@ public class Exercise {
         // System.out.println(principal); // tested the inputs
         // System.out.println(interest); // tested the inputs
         // System.out.println(Math.round(principal) + "^" + interest + " = " + total); //tested the input
+
+        // Well, the maths on this one is not right.
+
+
         
     }
 }
