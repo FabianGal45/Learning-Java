@@ -3,7 +3,7 @@ package LearningJava.Tutorial.HelloWorld;
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class ExerciseCopy {
+public class ExerciseRedesigned {
     public static void main(String[] args){
         //principal ammount of loan you want to get
         //annual interest rate:
