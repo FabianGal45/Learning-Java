@@ -16,9 +16,5 @@ public class GreenBottlesSong {
         System.out.println("And if that green bottle, should accidentally fall.");
         System.out.println("There'll be no green bottles, hanging on the wall.");
 
-        //Probably change this with if i=Two...
-
-        System.out.println(bottles.length);
-
       }
 }
