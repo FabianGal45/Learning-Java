@@ -4,7 +4,7 @@ public class GreenBottlesSong {
     public static void main(String[] args) {
         String[] bottles = {"Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two", "One"};
 
-        for (int i = 0; i <= bottles.length; i++) {
+        for (int i = 0; i <= bottles.length -2; i++) {
           String bottlesLeft = bottles[i+1].toLowerCase();
           System.out.println(bottles[i] + " green bottles hanging on the wall.");
           System.out.println(bottles[i] + " green bottles hanging on the wall.");
@@ -17,6 +17,8 @@ public class GreenBottlesSong {
         System.out.println("There'll be no green bottles, hanging on the wall.");
 
         //Probably change this with if i=Two...
+
+        System.out.println(bottles.length);
 
       }
 }
